@@ -16,6 +16,7 @@
 		F9585EC8245849F700F44F61 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9585EBE2458498F00F44F61 /* SwifteriOS.framework */; };
 		F9585EC9245849F700F44F61 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9585EBE2458498F00F44F61 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F9585ED22458507600F44F61 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9585ED12458507600F44F61 /* Secrets.plist */; };
+		F9585EDF2458532300F44F61 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9585EDE2458532300F44F61 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		F9585EB324583F8300F44F61 /* TweetSentimentClasiffier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClasiffier.mlmodel; sourceTree = "<group>"; };
 		F9585EB52458498F00F44F61 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		F9585ED12458507600F44F61 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		F9585EDE2458532300F44F61 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +120,13 @@
 			children = (
 				AD9EC64F20FE2EF4002AE9BF /* AppDelegate.swift */,
 				AD9EC65120FE2EF4002AE9BF /* ViewController.swift */,
-				F9585ED12458507600F44F61 /* Secrets.plist */,
 				AD9EC65320FE2EF4002AE9BF /* Main.storyboard */,
 				AD9EC65620FE2EF7002AE9BF /* Assets.xcassets */,
 				AD9EC65820FE2EF7002AE9BF /* LaunchScreen.storyboard */,
 				F9585EB324583F8300F44F61 /* TweetSentimentClasiffier.mlmodel */,
 				AD9EC65B20FE2EF7002AE9BF /* Info.plist */,
+				F9585ED12458507600F44F61 /* Secrets.plist */,
+				F9585EDE2458532300F44F61 /* API.swift */,
 			);
 			path = Twittermenti;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				AD9EC65220FE2EF4002AE9BF /* ViewController.swift in Sources */,
 				F9585EB424583F8300F44F61 /* TweetSentimentClasiffier.mlmodel in Sources */,
+				F9585EDF2458532300F44F61 /* API.swift in Sources */,
 				AD9EC65020FE2EF4002AE9BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
